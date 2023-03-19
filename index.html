@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+     crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+   crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.js"
+   integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/ad9e9b40b2.js" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webui-popover/1.2.18/jquery.webui-popover.js" integrity="sha512-i4m2lXx4/1pdl0aIV1h2kzSFQmpOcmkXasl6n/gdp4yx/gOR1hNdHVLr6Ai64qDWrXTAg24v9BUTY8Ts6O7s1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/webui-popover/1.2.18/jquery.webui-popover.css" integrity="sha512-cCFi/2BEpaQF3bVAoIKzDSnrHaAzj2UMeNIB1K5JO/Zq07dqFwQOxYCcnCYIRrdxIcN8acc2oVK4AYsqLmMiZg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js?version=v16.0"></script>
+    <title>Elite Design</title>
+    <link rel="stylesheet" href="project2.css">
+    <link rel="stylesheet" href="index.php">
+</head>
+<body>
+    <header>
+        <div class="container-fluid d-flex">
+            <div class="menu">
+                <button type="button" class="btn btn-success" data-bs-target="#canvas" data-bs-toggle="offcanvas"><i class="fa-solid fa-bars"></i>Menu</button>
+            </div>
+        <div class="head d-flex">
+     <h3 class="text-center" style="background-color:#405d27;">Welcome Elite Design</h3>
+    </div>
+</div>
+<div class="offcanvas offcanvas-start" id="canvas">
+    <div class="offcanvas-header">
+        <h3 class="offcanvas-title text-dark">Welcome!</h3>
+        <button type="button" class="btn btn-danger btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div  class="offcanvas-body">
+        <a href="Gallery.html" class="nav"><i class="fa-sharp fa-solid fa-gallery-thumbnails"></i><p class="text-center text-dark" style="font-size: 25px;">Gallery</p></a>
+        <a href="Contact.html" class="nav"><p class="text-center text-dark" style="font-size:25px;"><i class="fa-solid fa-phone-volume"></i>Contact</p></a>
+        <a href="news.html" class="nav"><p class="text-center text-dark" style="font-size:25px;"><i class="fa-sharp fa-solid fa-rss"></i>News</p></a>
+        <a href="videos.html" class="nav"><p class="text-center text-dark" style="font-size:25px;"><i class="fa-solid fa-video"></i>Videos</p></a>
+        <a href="calendar.html" class="nav"><p class="text-center text-dark" style="font-size:25px;"><i class="fa-sharp fa-solid fa-calendar-days"></i>Calendar</p></a>
+        <a href="AboutUs.html" class="nav"><p class="text-center text-dark" style="font-size:25px;"><i class="fa-sharp fa-solid fa-address-card"></i>About Us</p></a>
+    </div>
+</div>
+    </header>
+    <div class="container-fluid d-flex justify-content-between">
+        <div class="Leaf justify-content-end" style="width:55%;height:45%;">
+            <img src="back4.jpg" style="width:55%;height:35%;">
+        </div>
+        <div class="Logo" style="width:60%;height:55%;">
+            <img src="ed.jpg" style="width: 60%;height:65%;">
+        </div>
+        <div class="Leaf2 justify-content-end" style="width:55%;height:45%;">
+            <img src="back5.jpg" style="width:55%;height:35%;margin-left:30%;">
+        </div>
+    </div>
+    <nav>
+        <p class="text-white text-center p-2" style="background-color:darkgreen;" >Elite Design</p>
+    </nav>
+    <div class="container-fluid bg-success">
+            <div class="card" id="Card" style="width:60%;">
+             <img class="card-img-top" src="namaraj.jpg" style="margin-left:-0.5%;">
+             <h5 class="card-title text-center"id="Head"><b>Namaraj Pandey</b></h5><br>
+             <p class="text-center text-success"><b>Graphics Designer</b></p>
+            </div>
+            <div class="text  text-center">
+                <h3 class="text-dark text-center">Elite Design</h3><br>
+                <p>
+                    Elite Designing is the platform where you can find the greatest designing of all time.
+        We provide not only the designing but also attractive designing. Elite design helps
+         improve your productivity as it gives you instant results by boosting the number of sales
+                </p>
+                <p style="color:wheat;">
+                    Most people look for impressive design and it all comes from a professional graphic designer.
+                    Graphics look more impressive than normal texts.  We all get attracted to visually rich advertisements. 
+                     When you are planning to promote your brand or company,you need to create an effective logo or banner for advertising it.
+                       Elite designing is a one-stop-place that fulfills all your needs for your business. Elite help you create a brand out of a normal company or enterprise.
+                        Since you are expanding your business over the web, you need to marketize things well.
+                </p>
+             <p>
+                Graphics are always alive for your brand’s promotion.
+                When you put an impressive logo or banner while promoting a brand or company, it will be there forever.
+                 When a user searches for something, your logo will pop up in their mind. This is how graphics work for your brand or company.
+             </p>
+            </div>
+    </div>
+    <br>
+    <h4 class="text-center fs-1"><b>Our Services:</b></h4><br>
+    <div class="owl-carousel">
+        <div class="card">
+            <img class="card-img-top" id="flyer" src="flyer.jpeg">
+            <p class="card-img-header text-center text-dark"><b>Flyer Design</b></p>
+            <pb class="card-body text-dark">Flyer Design becomes...<br><button type="button"class="btn btn-success" data-bs-target="#Mymodal" data-bs-toggle="modal">see more</button></p>
+        </div>
+        <div class="card" style=>
+        <img class="card-img-top" id="id" src="id.jpg">
+        <p class="card-img-=header text-center text-dark"><b>ID card Design</b></p>
+        <p class="card-body text-dark">ID card helps...<button type="button" class="btn btn-success" data-bs-target="#Modal" data-bs-toggle="modal">See more</button></p>
+        </div>
+        <div class="card">
+        <img class="card-img-top" id="social" src="social.jpg">
+        <p class="card-header text-dark text-center"><b>Social meadia Ads</b></p>
+        <p class="card-body text-dark">Flyer helps....<button type="button" class="btn btn-success" data-bs-target="#Social" data-bs-toggle="modal">See more</button></p>
+        </div>
+        <div class="card">
+        <img class="card-img-top" id="ed" src="ed.jpg">
+        <p class="card-header text-dark text-center"><b>Logo Design</b></p>
+        <p class="card-body text-dark text-center">Logo specially..<button type="button" class="btn btn-success" data-bs-target="#logo" data-bs-toggle="modal">See more</button></p>
+    </div>
+    <div class="card">
+    <img class="card-img-top" id="download" src="download.jpg">
+    <p class="card-header text-dark text-center"><b>Banner Design</b></p>
+    <p class="card-body text-dark text-center">Banner displays yours...<button type="button" class="btn btn-success" data-bs-target="#webbanner" data-bs-toggle="modal">See more</button></p>
+    </div>
+    <div class="card">
+    <img class="card-img-top" id="print" src="print.jpg">
+    <p class="card-header text-dark text-center"><b>Print Design</b></p>
+    <p class="card-body text-dark text-center">Print Design is an..<button type="button" class="btn btn-success" data-bs-target="#Print" data-bs-toggle="modal">See more</button></p>
+    </div>
+</div>
+<div class="modal fade" id="Mymodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+             <div class="modal-header bg-success">
+                <h3 class="modal-title">Flyer Design</h3>
+                <button type="button" class="btn btn-outline-danger btn-close" data-bs-dismiss="modal"></button>
+             </div>
+
+             <div class="modal-body">
+A Flyer is usually a single, unfolded printed sheet that is used to draw attention to an event, service,
+ product or idea. A flyer usually contains a very simple message that can be conveyed quickly.
+             </div>
+             <div class="modal-footer bg-success">
+                <p>Thank You!</p>
+                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+             </div>
+        </div>
+    </div>
+</div>
+    <div class="modal fade" id="Modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                <h3 class="modal-title text-center">ID Card</h3>
+                <button type="button" class="btn btn-outline-danger btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    ID card helps to identify the person details.Id card is an essential for now days
+                    The card is necessary not only for procedures of state but
+                    also in the day-to-day transactions such as registering for a mobile phone line,
+                     obtaining certain discounts at stores, and logging on to certain websites on the internet. Schools 
+                    frequently use it to identify students, both online and in exams.
+                </div>
+                <div class="modal-footer bg-success">
+                    <p>Thank You!</p>
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Social">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h3 class="modal-title">Social Meadia Ads Design</h3>
+                    <button type="button" class="btn btn-outline-danger btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Social media ads design is the process of creating images or videos for social media ads
+                     The purpose of social media ads design is to create an ad that is visually appealing and catches the attention of social media users. 
+                     A great social media ad should be eye-catching, relevant, and engaging.
+                </div>
+                <div class="modal-footer bg-success">
+                    <p>Thank You!</p>
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="letter">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h3 class="modal-title">Letter Head Design</h3>
+                    <button type="button" class="btn btn-outline-danger btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    A letterhead is a stationery design that unifies your printed correspondence to your brand.
+                     Technically, letterheads are used for printed letters but can also be used in digital messaging to maintain a branded feel.
+                      In some cases, companies use letterheads for important correspondence only.
+                </div>
+                <div class="modal-footer bg-success">
+                    <p>Thank You!</p>
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="webbanner">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h3 class="modal-title">Web Banner Design</h3>
+                    <button type="button" class="btn btn-outline-danger btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                     In the digital advertising world, web banners, also known as display banner ads or display ads, 
+                     are clickable digital ads that are embedded into websites to drive traffic to the website of the advertiser. 
+                     They can be manually embedded into websites or delivered by an ad network through a server.
+                </div>
+                <div class="modal-footer bg-success">
+                    <p>Thank You!</p>
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="flex">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h3 class="modal-title">Flex Board Design</h3>
+                    <button type="button" class="btn btn-outline-danger btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Flexbanner prints are advertising works that are designed to meet the needs of experts in the field.
+                     Flex Banner, a material commonly used in the digital printing industry,
+                     is a material that is both affordable and durable.
+                </div>
+                <div class="modal-footer bg-success">
+                    <p>Thank You!</p>
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="logo">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h3 class="modal-title">Logo Design</h3>
+                    <button type="button" class="btn btn-outline-danger btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Logo design is the process of designing a logo.
+                     Branding is the process of building a brand.
+                      To be more specific, it is a strategy designed by 
+                      companies to help people to quickly identify their products and organization,
+                       and give them a reason to choose their products over the competition.
+                </div>
+                <div class="modal-footer bg-success">
+                    <p>Thank You!</p>
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Print">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h3 class="modal-title">Print Design</h3>
+                    <button type="button" class="btn btn-outline-danger btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Print design, a subset of graphic design, 
+                    is a form of visual communication used 
+                    to convey information to an audience through intentional aesthetic design ..
+                </div>
+                <div class="modal-footer bg-success">
+                    <p>Thank You!</p>
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="text-center">Our Design Services</h3>
+    <div class="information">
+    <div class="col-sm-3 row-md-5 row-lg-6">
+        <h2 style="margin-left: 1.5%;">Design</h2>
+        <ul>
+            <b><li>Flyer Design</li></b>
+            <b><li>ID Card Design</li></b>
+             <b><li>Letter Head Design</li></b>
+             <b><li>Logo Design</li></b>
+             <b><li>Social Media Ads Design</li></b>
+             <b><li>Flexboard Design</li></b>
+             <b><li>Web Banner Design</li></b>
+             <b><li>Photo Editing</li></b>
+             <b><li>Brochure Design</li></b>
+             <b><li>Product package Design</li></b>
+           </ul> 
+    </div>
+    <div class="col-sm-3 row-md-5 row-lg-6">
+        <b><h2>feedback</h2></b>
+        <form action="feedback.php" method="post">
+            <label for="Name">FirstName</label><br>
+            <input type="text" name="Fname" placeholder="Enter your Name"  required><br>
+            <label for="LastName">LastName</label><br>
+            <input type="text" name="Lname" placeholder="Enter your lastName" required><br>
+            <label for="Phone">Phone:</label><br>
+            <input type="number" placeholder="Enter phone" name="Phone" required><br>
+            <label for="Comment">Comment:</label><br>
+            <textarea name="comment" rows="7" cols="38"></textarea>
+        </form>
+    </div>
+    <div class="Benefit">
+        <b><h2>Facilities</h2></b>
+        <ul>
+            <b><li>Good Design</li></b>
+             <b><li>Design for any Industries</li></b>
+             <b><li>Cheap</li></b>
+             <b><li>Quality Design</li></b>
+             <b><li>Effective Design</li></b>
+             <b><li> Design In monthly packages</li></b>
+             <b><li>Design on time</li></b>
+         </ul>
+    </div>
+</div>
+<footer>
+<div class="Contact">
+    <h4 class="text-center"><u>Contact</u></h4>
+<p class="text-center text-dark"><i class="fa-solid fa-phone-volume"></i> <b class="text-dark">Email: </b>mainali123@gmail.com</p>
+<p class="text-center text-dark "><i class="fa-solid fa-location-dot"></i> <b class="text-dark">Address: </b>Dadagaun,Nepaltar</p>
+<p class="text-center text-dark "><i class="fa-solid fa-address-card"></i> <b class="text-dark">Phone: </b>9818********</p>
+</div>
+<div class="About">
+    <h4 class="text-center"><u>About Us</u></h4>
+<p class="text-dark">
+    Elite Designing is the platform where you can find the greatest designing of all time.
+We provide not only the designing but also attractive designing. Elite design helps
+improve your productivity as it gives you instant results by boosting the number of sales
+</p>
+</div>
+<div class="Social">
+    <h4 class="text-center"><u>Social</u></h4>
+    <a href="https://www.facebook.com"><p><i class="fa-brands fa-facebook"></i><b class="text-dark">Facebook</b></p></a>
+    <a href="https://www.instagram.com"><p><i class="fa-brands fa-instagram"></i><b class="text-dark">Instagram</b></p></a>
+    <a href="https://www.whatsapp.com"><p><i class="fa-brands fa-whatsapp"></i><b class="text-dark">Whatsapp</b></p></a>
+</div>
+<div class="offcanvas offcanvas-bottom" id="offcanvas1">
+  <div class="offcanvas-header bg-success">
+    <h4 class="offcanvas-title offcanvas-center" style="margin-left:50%;">Share</h4>
+    <button type="button" class="btn btn-danger btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body d-flex justify-content-between">
+    <a href="https://wwww.facebook.com" id="Fshare" class="share"><i class="fa-brands fa-facebook fa-2x fa-4x"><h6 class="txt">facebook</h6></i></a>
+  <a href="https://www.instagram.com" class="share"><i class="fa-brands fa-square-instagram fa-4x"><h6 class="txt">Instagram</h6></i></a>
+    <a href="https://www.twitter.com" class="share"><i class="fa-brands fa-twitter fa-4x"><h6 class="txt"t>twitter</h6></i></a>
+    <a href="#" class="share"><i class="fa-brands fa-linkedin fa-4x"><h6 class="txt">Linkedln</h6></i></a>
+  </div>
+</div>
+</footer>
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            loop:true,
+            items:4,
+            padding:100,
+            autoplay:true,
+            goToFirst:true,
+            goToFirstSpeed:100,
+            nav:true,
+            autoWidth:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                325:{
+                    items:2
+                },
+                600:{
+                    items:3
+                },
+                768:{
+                    items:3
+                },
+            }
+        });
+    });
+    $(document).ready(function(){
+$("#offcanvas1").offcanvas("show");
+    });
+    $(document).ready(function(){
+        FB.init({
+            appId:'777838816738753',
+            xfbml:true,
+            version:'v16.0'
+        });
+    });
+    //opening the facebook share dialouge when user click on icon
+    $d(document).ready(function(){
+       $("#Fshare").click(function(){
+        FB.ui({
+            method:'share',
+            href:'http://localhost/admin_dashboard/2nd%20project/2nd%20project.php'
+        })
+       })
+    })
+</script>
+</body>
+</html>
